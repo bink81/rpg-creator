@@ -1,0 +1,445 @@
+<items>
+	<item>
+			<name>Common sword</name>
+			<filename> images/sword.gif </filename>
+			<type>hand</type>
+			<damage>3d2</damage>
+			<toHit>1d3+5</toHit>
+			<description>simple sharp metal object for cutting
+Bit used but looks sharp
+Must have slain many...
+			</description>
+			<weight> 10 </weight>   
+			<price> 10 </price>	
+			<material>metal</material>
+			<forbiddenFor>
+				<name> warrior </name>
+				<name> hunter </name>
+				<name> human </name>
+				<name> elf </name>
+			</forbiddenFor>
+			<minStrength>10</minStrength>
+			</item>
+
+		<item>
+			<name>Bow of the eagle</name>
+			<filename>images/bow.gif</filename>
+			<description>It has more than 1,5 m long.
+The wood resembles oak.
+			</description>
+			<dexterity>3</dexterity>
+			<perception>2</perception>
+			<toHit>4d3+5</toHit>
+			<type>ranged</type>
+			<material>wood</material>
+			<damage>4d2</damage>
+			<weight>2</weight>
+			<price> 20 </price>	'golden coins
+			<minDexterity>20</minDexterity>
+			<minIntelligence>20</minIntelligence>
+		</item>
+
+
+		<item>
+			<name>Heavy club</name>
+			<filename>images/club.gif</filename>
+			<type>hand</type>
+			<intelligence>0-1</intelligence>
+			<material>stone</material>
+			<description>Heavy troll made club
+probly only a troll to be able to swing it</description>
+			<toHit>1d3-5</toHit>
+			<damage>5d7</damage>
+			<mods>int-2</mods>
+			<weight>20</weight>
+			<forbiddenFor>
+				<name>mage</name>
+				<name>elf</name>
+			</forbiddenFor>
+			<price> 5 </price>	'golden coins
+			<minStrength>20</minStrength>
+		</item>
+		
+		<item>
+			<name>Hooded cloak</name>
+			<type>back</type>
+			<material>wool</material>
+			<perception>2</perception>
+			<filename>images/cloak.gif</filename>
+			<description>A green elvish cloak
+				waterproof and warm</description>
+			<dodge>3d4</dodge>
+			<armor>2d2</armor>
+			<weight>1</weight>
+			<forbiddenFor>
+				<name>dragon</name>
+			</forbiddenFor>
+			<price> 1d2+ 7 </price>	'golden coins
+			<minIntelligence>14</minIntelligence>
+		</item>
+
+		<item>
+			<name>Small rejuvenation potion</name>
+			<type>potion</type>
+			<description>some liquid sparkles and bubbles inside delicate flask
+			</description>
+			<filename>images/rejuvenation.gif</filename>
+			<health>4d2</health>
+			<mana>5</mana>
+			<weight>1</weight>
+			<price> 4 </price>	'golden coins
+			<minIntelligence>10</minIntelligence>
+		</item>
+
+		<item>
+			<name>Healing potion</name>
+			<description>some liquid sparkles and bubbles inside delicate flask
+			</description>
+			<filename>images/health.gif</filename>
+			<type>potion</type>
+			<health>4d3</health>
+			<weight>1</weight>
+			<price> 5 </price>	'golden coins
+			<minIntelligence>10</minIntelligence>
+		</item>
+
+		<item>
+			<name>Small mana potion</name>
+			<type>potion</type>
+			<description>some liquid sparkles and bubbles inside
+				delicate flask
+			</description>
+			<filename>images/mana.gif</filename>
+			<mana>4d3</mana>
+			<weight>1</weight>
+			<price> 5 </price>	'golden coins
+			<minIntelligence>10</minIntelligence>
+		</item>
+
+		<item>
+			<name>Common book of firebolt</name>
+			<type>script</type>
+			<filename>images/book.gif</filename>
+			<description>An old looking book
+the cover is strangely warm</description>
+			<spell>firebolt</spell>
+			<weight>1</weight>
+			<mana>10</mana>
+			<map>city</map>
+			<forbiddenFor>
+				<name>troll</name>
+			</forbiddenFor>
+			<price> 10 </price>	'golden coins
+			<minIntelligence>20</minIntelligence>
+		</item>
+
+		<item>
+			<name>Common book of invisibility</name>
+			<type>script</type>
+			<filename>images/book2.gif</filename>
+			<description>An old looking book.
+Looks like it is made from glass </description>
+			<map>city</map>
+			<spell>invisibility</spell>
+			<weight>1</weight>
+			<mana>10</mana>
+			<forbiddenFor>
+				<name>troll</name>
+			</forbiddenFor>
+			<price> 10 </price>	'golden coins
+			<minIntelligence>20</minIntelligence>
+			
+		</item>
+
+		<item>
+			<name>Common book of frostbolt</name>
+			<type>script</type>
+			<filename>images/book.gif</filename>
+			<map>city</map>
+			<description>An chilly old looking book.
+Vaporizes while in touth wit water</description>
+			<spell>frostbolt</spell>
+			<weight>1</weight>			
+			<mana>10</mana>
+			<forbiddenFor>
+				<name>troll</name>
+			</forbiddenFor>
+			<price> 10 </price>	'golden coins
+			<minIntelligence>20</minIntelligence>
+		</item>
+		
+		<item>
+			<name>Common book of teleport</name>
+			<type>script</type>
+			<map>city</map>
+			<filename>images/book.gif</filename>
+			<description>An old looking book, strangely vibrating</description>
+			<spell>teleport</spell>
+			<mana>10</mana>
+			<weight>1</weight>			
+			<forbiddenFor>
+				<name>troll</name>
+			</forbiddenFor>
+			<price> 10 </price>	'golden coins
+			<minIntelligence>20</minIntelligence>
+		</item>
+
+		<item>
+			<name>Common book of healing</name>
+			<map>city</map>
+			<mana>10</mana>
+			<type>script</type>
+			<filename>images/book.gif</filename>
+			<description>An old looking book, feels warm
+you feel its plesant function 
+			</description>
+			<spell>heal</spell>
+			<weight>1</weight>			
+			<forbiddenFor>
+				<name>troll</name>
+			</forbiddenFor>
+			<price> 10 </price>	'golden coins
+			<minIntelligence>20</minIntelligence>
+		</item>
+
+		<item>
+			<name>Mage's gloves</name>
+			<type>gloves</type>
+			<intelligence>3d2</intelligence>
+			<material>cloth</material>
+			<armor>4d2</armor>
+			<mana>20</mana>
+			<filename>images/gloves.gif</filename>
+			<weight>2</weight>		
+			<forbiddenFor>
+				<name>warrior</name>
+				<name>orc</name>
+				<name>troll</name>
+				<name>dragon</name>
+			</forbiddenFor>
+			<description>Gnomish sparkling gloves, looks delicate</description>
+			<price> 20 </price>	'golden coins
+			<minIntelligence>20</minIntelligence>
+		</item>
+		
+		<item>
+			<name>Lord's shield of charisma</name>
+			<type>hand</type>
+			<filename>images/buckler.gif</filename>
+			<description>only a trained lord is capable of handling such a heavy piece of metal
+			</description>
+			<strength>3d2</strength>
+			<dexterity>10</dexterity>
+			<material>steel</material>
+			<armor>4d3</armor>
+			<weight>10</weight>		
+			<forbiddenFor>
+				<name>mage</name>
+			</forbiddenFor>
+			<price> 30 </price>	'golden coins
+			<minIntelligence>10</minIntelligence>
+			<minDexterity>15</minDexterity>
+			<minStrength>15</minStrength>
+		</item>
+
+		<item>
+			<name>Armored shoes</name>
+			<type>shoes</type>
+			<filename>images/shoes.gif</filename>
+			<armor>4d2+2</armor>
+			<speed>0-5</speed>
+			<dodge>2d3</dodge>
+			<material>steel</material>
+			<weight>6</weight>		
+			<forbiddenFor>
+				<name>mage</name>
+			</forbiddenFor>
+			<description>Shiny and hand crafted warriors equipment</description>
+			<price> 15 </price>	'golden coins
+			<minStrength>15</minStrength>
+		</item>
+		
+		<item>
+			<name>Dwarvish one hand axe</name>
+			<type>hand</type>
+			<description>some runes are written on the blade
+			</description>
+			<toHit>1d3+5</toHit>
+			<dexterity>0-1</dexterity>
+			<strength>4</strength>
+			<damage>6d2</damage>
+			<dodge>0-3</dodge>
+			<armor>3d1</armor>
+			<filename>images/axe.gif</filename>
+			<material>steel</material>
+			<weight>9</weight>		
+			<forbiddenFor>
+				<name>mage</name>
+			</forbiddenFor>
+			<description>Hand made, a bit rusty but trustfull</description>
+			<price> 10 </price>	'golden coins
+			<minStrength>18</minStrength>
+		</item>
+
+		<item>
+			<name>Spiked plate armor</name>
+			<type>chest</type>
+			<damage>1d2</damage>
+			<armor>4d4</armor>
+			<dodge>2</dodge>
+			<filename>images/plate_armor.gif</filename>
+			<dodge>0-6</dodge>
+			<speed>0-5</speed>
+			<material>steel</material>
+			<weight>20</weight>		
+			<forbiddenFor>
+				<name>mage</name>
+			</forbiddenFor>
+			<description>Slow and heavy, but safe</description>
+			<price> 30 </price>	'golden coins
+			<minStrength>18</minStrength>
+			<minDexterity>15</minDexterity>
+		</item>
+		
+		<item>
+			<name>Reinforced gloves</name>
+			<type>gloves</type>
+			<filename>images/gloves.gif</filename>
+			<description>thorns on the knuckles seem unfriendly 
+			</description>
+			<armor>3d2</armor>>
+			<dexterity>0 - 3</dexterity>
+			<material>steel</material>
+			<weight>5</weight>		
+			<forbiddenFor>
+				<name>mage</name>
+			</forbiddenFor>
+			<description>Hard to operate with fingers</description>
+			<price> 13 </price>	'golden coins
+			<minStrength>15</minStrength>
+		</item>
+
+		<item>
+			<name>Hermes' shoes of speed</name>
+			<type>shoes</type>
+			<filename>images/Hermes_sandals.gif</filename>
+			<dodge>3d2</dodge>
+			<armor>3d2+2</armor>
+			<speed>2d2+ 10</speed>
+			<material>leather</material>
+			<weight>1</weight>		
+			<description>Stolen from gods, light but strong</description>
+			<price> 50 </price>	'golden coins
+			<minSpeed>130</minSpeed>
+		</item>
+		
+		<item>
+			<name>Hermes' cap of speed</name>
+			<type>head</type>
+			<description>the god must be quite angry to do without it
+			</description>
+			<filename>images/helmet.gif</filename>
+			<material>leather</material>
+			<speed>10</speed>
+			<armor>4d1</armor>
+			<weight>3</weight>		
+			<description>Stolen from gods, two little wings attached from both sides</description>
+			<price> 50 </price>	'golden coins
+			<minSpeed>16</minSpeed>
+			<minIntelligence>17</minIntelligence>
+		</item>
+
+		<item>
+			<name>Bread</name>
+			<type>food</type>
+			<filename>images/bread.gif</filename>
+			<weight>1</weight>		
+			<description>Smell nice</description>
+			<health>3d4</health>
+		</item>
+	
+		<item>
+			<name>Leather armor</name>
+			<description>standard protection
+			</description>
+			<type>chest</type>
+			<material>leather</material>
+			<dodge>2d2</dodge>
+			<armor>2d2</armor>
+			<filename>images/leather_armor.gif</filename>
+			<weight>3</weight>		
+			<description>Simple, but light</description>
+			<price> 4 </price>	'golden coins
+			<minStrength>10</minStrength>
+		</item>
+		
+		<item>
+			<name>Leather gloves</name>
+			<type>gloves</type>
+			<material>leather</material>
+			<filename>images/gloves.gif</filename>
+			<armor>3d1</armor>
+			<weight>2</weight>		
+			<description>Simple and light</description>
+		</item>
+		
+		<item>
+			<name>Kitchen knife of accuracy</name>
+			<type>hand</type>
+			<toHit>6d3+5</toHit>
+			<filename>images/knife.gif</filename>
+			<material>steel</material>
+			<damage>2d1</damage>
+			<weight>2</weight>		
+			<description>Usable in kitchen more than in battle</description>
+		</item>
+		
+		<item>
+			<name>Ring of perception</name>
+			<type>ring</type>
+			<filename>images/ring1.gif</filename>
+			<material>diament</material>
+			<perception>10</perception>
+			<weight>1</weight>		
+			<description>Impressive design and enchantings 
+This ring is meant for a leader</description>
+			<price> 40 </price>	'golden coins
+			<minIntelligence>14</minIntelligence>
+			<minPerception>13</minPerception>
+		</item>		
+
+		<item>
+			<name>Ring of speed</name>
+			<type>ring</type>
+			<filename>images/ring2.gif</filename>
+			<material>rubin</material>
+			<speed>10</speed>
+			<weight> 1</weight>		
+			<description>Impressive design and enchantings
+Two wings drawnen on its side
+			</description>
+			<price> 40 </price>	'golden coins
+		</item>		
+
+		<item>
+			<name>Wedding ring</name>
+			<type>ring</type>
+			<filename>images/ring3.gif</filename>
+			<material>brass</material>
+			<weight>1</weight>		
+			<description>A beautiful yet meaningless ring	</description>
+		</item>		
+		
+	<item>
+		<name>Bandage</name>
+		<type>tool</type>
+		<filename>images/bandage.gif</filename>
+		<material>cloth</material>
+		<weight>1</weight>
+		<health>5d4+3</health>
+		<description>Something to bind you wounds</description>
+	</item>		
+
+	</items>
+	
+

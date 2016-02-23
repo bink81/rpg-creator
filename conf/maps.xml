@@ -1,0 +1,175 @@
+<maps>
+	<map>
+		<name> dungeon </name>
+		<filename> conf/dungeon.map </filename>
+		<description> An example dungeon level </description>
+		<creatureNumber> 25 </creatureNumber>
+		<respawn>10</respawn>
+		<itemNumber>10</itemNumber>
+		<visibility> 90 </visibility>
+		<mobility> 100 </mobility>
+		<harmful> 0 </harmful>
+		
+		<fields>
+			<field>
+				<name> SPACE </name>
+				<symbol>  </symbol>
+				<filename> images/floor.gif </filename>
+			</field>
+			<field>
+				<name> wall </name>
+				<symbol> # </symbol>
+				<mobility> 0 </mobility>
+				<visibility> 0 </visibility>
+				<filename> images/wall.gif </filename>
+			</field>
+			<field>
+				<name> teleport </name>
+				<description> A light in the dark promises a way out </description>
+				<symbol> / </symbol>
+				<filename> images/stairsOut.gif </filename>
+				<targetMap> outside </targetMap>
+				<targetX> 3 </targetX>
+				<targetY> 3 </targetY>
+			</field>
+		</fields>
+	</map>
+
+	<map>
+		<name> outside </name>
+		<filename> conf/outside.map </filename>
+		<description> An example dungeon level </description>
+		<monstersNr> 0 </monstersNr>
+		<respawn>5</respawn>
+		<creatureNumber>15</creatureNumber>
+		<itemNumber>10</itemNumber>
+		<visibility> 90 </visibility>
+		<mobility> 100 </mobility>
+		<harmful> 0 </harmful>
+		<fields>
+			<field>
+				<name> wall </name>
+				<symbol> # </symbol>
+				<visibility> 0 </visibility>
+				<mobility> 0 </mobility>
+				<filename> images/wall.gif </filename>
+			</field>
+			<field>
+				<name> grass </name>
+				<symbol> " </symbol>
+				<filename> images/grass.gif </filename>
+			</field>
+			<field>
+				<name> mountain </name>
+				<symbol> ^ </symbol>
+				<mobility>0 </mobility>
+				<visibility> 0 </visibility>
+				<filename> images/rocks.gif </filename>
+			</field>
+			<field>
+				<name> tree </name>
+				<symbol> T </symbol>
+				<visibility> 50 </visibility>
+				<mobility> 80 </mobility>
+				<filename> images/trees.gif </filename>
+			</field>
+			<field>
+				<name> water </name>
+				<symbol> t </symbol>
+				<visibility> 50 </visibility>
+				<mobility> 0 </mobility>
+				<filename> images/water.gif </filename>
+			</field>
+			<field>
+				<name> shop </name>
+				<symbol> A</symbol>
+				<fieldItemsNr> 5</fieldItemsNr>
+				<visibility> 50 </visibility>
+				<mobility> 80 </mobility>
+				<filename> images/house.gif </filename>
+			</field>
+			<field>
+				<name> hut </name>
+				<symbol> H </symbol>
+				<visibility> 50 </visibility>
+				<mobility> 80 </mobility>
+				<filename> images/hut.gif </filename>
+			</field>
+			<field>
+				<name> road </name>
+				<symbol> ' </symbol>
+				<filename> images/road.gif </filename>
+			</field>
+			<field>
+				<name> bridge </name>
+				<symbol> B</symbol>
+				<filename> images/floor.gif </filename>
+			</field>
+			<field>
+				<name> teleport</name>
+				<description> Rather boring cave entrance </description>
+				<symbol> 1 </symbol>
+				<fieldItemsNr> 5</fieldItemsNr>
+				<filename> images/stairsIn.gif </filename>
+				<targetMap> dungeon </targetMap>
+				<targetX> 3 </targetX>
+				<targetY> 2 </targetY>
+			</field>
+
+			<field>
+				<name> teleport </name>
+				<description> A city gate </description>
+				<symbol> 2 </symbol>
+				<filename> images/gate.gif </filename>
+				<targetMap> city </targetMap>
+				<targetX> 1 </targetX>
+				<targetY> 3 </targetY>
+			</field>
+		</fields>
+	</map>
+
+	<map>
+		<name> city </name>
+		<filename> conf/city.map </filename>
+		<description> Human inhabited place  </description>
+		<creatureNumber> 25 </creatureNumber>
+		<respawn>10</respawn>
+		<itemNumber>10</itemNumber>
+		<visibility> 90 </visibility>
+		<mobility> 100 </mobility>
+		<harmful> 0 </harmful>
+		
+		<fields>
+			<field>
+				<name> SPACE </name>
+				<symbol>  </symbol>
+				<filename> images/floor.gif </filename>
+			</field>
+			<field>
+				<name> wall </name>
+				<symbol> # </symbol>
+				<mobility> 0 </mobility>
+				<visibility> 0 </visibility>
+				<filename> images/wall.gif </filename>
+			</field>
+			<field>
+				<name> ilusionWall </name>
+				<symbol> 7</symbol>
+				<visibility> 0 </visibility>
+				<mobility> 100 </mobility>
+				<filename> images/wall.gif </filename>
+			</field>
+			
+			<field>
+				<name> teleport </name>
+				<description> Gate out </description>
+				<symbol> / </symbol>
+				<filename> images/gate.gif </filename>
+				<targetMap> outside </targetMap>
+				<targetX> 7 </targetX>
+				<targetY> 2 </targetY>
+			</field>
+		</fields>
+
+	</map>
+</maps>

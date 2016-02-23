@@ -1,0 +1,27 @@
+<raceList>
+	<race>
+		<name> human </name>
+		<height> 170 </height>
+		<maxStr> 20 </maxStr>
+		<maxSpeed> 18 </maxSpeed>
+		<maxDex> 18 </maxDex
+		<maxSpeed> 18 </maxSpeed>
+		<expBonus> 20 </expBonus>
+	</race>
+
+	<race>
+		<name> elf </name>
+		<height> 150 </height>
+		<maxStr> 15 </maxStr>
+		<intBonus> 20 </intBonus>
+	</race>
+
+	<race>
+		<name> dragon </name>
+		<height> 250 </height>
+		<maxInt> 15 </maxInt>
+		<maxSpeed> 16 </maxSpeed>
+		<maxApp> 15 </maxApp>
+		<aidBonus> 20 </aidBonus>
+	</race>
+</raceList>

@@ -1,0 +1,335 @@
+<creatures>
+	
+	<creature>
+		<race>Human</race>
+		<name>Robert</name>
+		<profession>Developer</profession>
+		<filenamePrefix>images/footman</filenamePrefix>
+		<description>Grim face</description>
+		<type>humanoid</type>
+		<money>3d3+10</money>
+		<map>outside</map>
+		<locationx>3</locationx>
+		<locationy>4</locationy>
+		<speed>100</speed>
+		<money>3d2</money>
+		<health>100</health>
+		<damage>3d6</damage>
+		<toHit>4d7</toHit>
+		<armour>4d3</armour>
+		<dodge>4d3</dodge>
+		
+		<strength>12</strength>
+		<dexterity>6</dexterity>
+		<intelligence>7</intelligence>
+		<perception>4</perception>
+		<items>
+			<item>
+				<itemName>Common sword</itemName>
+			</item>
+			<item>
+				<itemName>random</itemName>
+				<class>all</class>
+			</item>
+		</items>
+	</creature>
+	
+	<creature>
+		<race>Elf</race>
+		<perception>7</perception>
+		<profession>Archer</profession>
+		<filenamePrefix>images/archer</filenamePrefix>
+		<description>Slender and thin</description>
+		<type>humanoid</type>
+		<map>outside</map>
+		<experience>60</experience>
+		<speed>100</speed>
+		<health>70</health>
+		<damage>2d2</damage>
+		<toHit>4d3</toHit>
+		<armour>2d2</armour>
+		<dodge>3d3</dodge>
+		<items>
+			<item>
+				<itemName>Bow of the eagle</itemName>
+			</item>
+			<item>
+				<itemName>random</itemName>
+				<class>all</class>
+			</item>
+		</items>
+		<dialogs>
+			<dialog>
+				<question>Where are you going ?</question>
+				<answer>Just wandering...</answer>
+			</dialog>
+		</dialogs>
+	</creature>
+	
+<creature>
+		<race>Troll</race>
+		<filenamePrefix>images/troll</filenamePrefix>
+		<description>That stone axe looks unfriendly</description>
+		<type>humanoid</type>
+		<money>4d3+10</money>
+		<attitude>neutral</attitude>
+		<experience>50</experience>
+		<speed>80</speed>
+		<health>30</health>
+		<perception>3</perception>
+		<damage>2d6</damage>
+		<toHit>3d6</toHit>		
+		<armour>2d5</armour>
+		<dodge>4d3</dodge>
+		<dialogs>
+			<dialog>
+				<question>Errrr, ...., excuse me, ..., creature...? </question>
+				<answer>hrrrggrr</answer>
+			</dialog>
+		</dialogs>
+		<items>
+			<item>
+				<itemName>Dwarvish one hand axe</itemName>
+			</item>
+			<item>
+				<itemName>random</itemName>
+				<class>all</class>
+			</item>
+		</items>
+	</creature>
+
+	
+	<creature>
+		<race>Dragon</race>
+		<filenamePrefix>images/dragon</filenamePrefix>		
+		<description>Unbelevable - you thought they appear only in fairy tales!</description>
+		<perception>7</perception>
+		<type>mythical</type>
+		<speed>45</speed>
+		<money>3d20</money>
+		<map>outside</map>
+		<experience>180</experience>
+		<health>400</health>
+		<damage>4d20</damage>
+		<toHit>8d13</toHit>
+		<armour>4d10</armour>
+		<dodge>1d3</dodge>
+		<items>
+			<item>
+				<itemName>random</itemName>
+				<class>ring</class>
+			</item>
+		</items>
+		<dialogs>
+			<dialog>
+				<question>Errrr, ...., excuse me, but you can talk ??</question>
+				<answer>ONLY IF I WANT TO !!</answer>
+			</dialog>
+			<dialog>
+				<question>Hey dragon, what's up?</question>
+				<answer>HRRMRPH</answer>
+			</dialog>
+			<dialog>
+				<question>Can you help me? I have lost something. </question>
+				<answer>You never found it....</answer>
+			</dialog>
+			
+		</dialogs>
+	</creature>
+    
+    <creature>
+		<race>Human</race>
+		<profession>Mage</profession>
+		<filenamePrefix>images/mage</filenamePrefix>
+    		<perception>4</perception>
+		<description>Covered in sparks</description>
+		<type>humanoid</type>
+		<experience>45</experience>
+		<attitude>peaceful</attitude>
+		<map>city</map>
+		<speed>100</speed>
+		<money>3d2</money>
+		<health>40</health>
+		<damage>1d2</damage>
+		<toHit>2d3</toHit>
+		<armour>1d2</armour>
+		<dodge>2d2</dodge>
+		<items>
+			<item>
+				<itemName>Common book of frostbolt</itemName>
+			</item>
+			<item>
+				<itemName>random</itemName>
+				<class>all</class>
+			</item>
+		</items>
+    		<dialogs>
+    			<dialog>
+    				<question>Heard any roumors, sir?</question>
+    				<answer>Sorry, no time, in a rush.</answer>
+    			</dialog>
+    			<dialog>
+    				<question>What are you seeking?</question>
+    				<answer>Knowledge, just and only</answer>
+    			</dialog>
+    		</dialogs>
+    	
+	</creature>
+	
+
+    <creature>
+		<race>Deamon</race>
+		<profession>Death Knight</profession>
+    		<perception>6</perception>
+		<filenamePrefix>images/death</filenamePrefix>
+		<description>Death in human form</description>
+		<type>deamon</type>
+		<map>dungeon</map>
+		<attitude>hostile</attitude>
+		<money>2d20</money>
+		<experience>150</experience>
+		<speed>130</speed>
+		<health>140</health>
+		<damage>3d6</damage>
+		<toHit>4d6</toHit>
+		<armour>4d3</armour>
+		<dodge>4d4</dodge>
+    		<dialogs>
+    			<dialog>
+    				<question>Errrr, ...., excuse me, ..., creature...? </question>
+    			</dialog>
+    		</dialogs>
+    	
+	    	<items>
+			<item>
+				<itemName>Common sword</itemName>
+			</item>
+			<item>
+				<itemName>random</itemName>
+				<class>all</class>
+			</item>
+		</items>
+	</creature>
+	
+	<creature>
+		<race>Undead</race>
+		<profession>Burner</profession>
+		<perception>3</perception>
+		<filenamePrefix>images/burning</filenamePrefix>
+		<description>Magically resurected</description>
+		<type>undead</type>
+		<map>dungeon</map>
+		<attitude>hostile</attitude>
+		<experience>70</experience>
+		<speed>201</speed>
+		<health>40</health>
+		<damage>1d6</damage>
+		<toHit>4d3</toHit>
+		<armour>1d3</armour>
+		<dodge>2d3</dodge>
+		<money>29</money>
+		<items>
+			<item>
+				<itemName>random</itemName>
+				<class>ring</class>
+			</item>
+		</items>
+	</creature>
+	
+	<creature>
+		<race>Hell Deamon</race>
+		<profession>Devil</profession>
+		<perception>5</perception>
+		<filenamePrefix>images/deamon</filenamePrefix>
+		<description>Magically created</description>
+		<type>deamon</type>
+		<map>dungeon</map>
+		<attitude>hostile</attitude>
+		<experience>70</experience>
+		<speed>201</speed>
+		<health>90</health>
+		<damage>3d6</damage>
+		<toHit>4d7</toHit>
+		<armour>4d3</armour>
+		<dodge>6d3</dodge>
+		<money>29d2</money>
+		<items>
+			<item>
+				<itemName>random</itemName>
+				<class>ring</class>
+			</item>
+		</items>
+	</creature>
+	
+	<creature>
+		<name>Gnuk - The ogrish shopkeeper</name>
+		<race>Ogre</race>
+		<profession>merchant</profession>
+		<perception>3</perception>
+		<filenamePrefix>images/ogre</filenamePrefix>
+		<description>Two headed</description>
+		<type>humanoid</type>
+		<money>10d50</money>
+		<attitude>neutral</attitude>
+		<experience>300</experience>
+		<speed>160</speed>
+		<health>100</health>
+		<damage>20d2</damage>
+		<toHit>4d30</toHit>
+		<armour>20d3</armour>
+		<dodge>10d3</dodge>
+		<move>stay</move>
+		<map>city</map>
+		<locationx>2</locationx>
+		<locationy>5</locationy>
+		<dialogs>
+			<dialog>
+				<question>Good day, servant.</question>
+				<answer>Idiot, I OWE this place!</answer>
+			</dialog>
+			<dialog>
+				<question>Heard any roumors lately?</question>
+				<answer>Hmmm, I have overheard that there is a ilusion wall near the gate.
+One has to follow north and check the walls.
+I just dont have time to check it!
+Business goes even too well and time is money!</answer>
+			</dialog>
+			
+		</dialogs>
+		
+	</creature>
+	
+	<creature>
+		<race>Human</race>
+		<profession>servant</profession>
+		<filenamePrefix>images/peasant</filenamePrefix>
+		<description>Dum facial look</description>
+		<type>humanoid</type>
+		<money>10d5</money>
+		<attitude>neutral</attitude>
+		<experience>30</experience>
+		<speed>160</speed>
+		<health>100</health>
+		<damage>10d2</damage>
+		<toHit>2d13</toHit>
+		<armour>10d3</armour>
+		<dodge>5d3</dodge>
+		<move>stay</move>
+		<map>city</map>
+		<dialogs>
+			<dialog>
+				<question>Good day, servant.</question>
+				<answer>Yes sir?</answer>
+			</dialog>
+			<dialog>
+				<question>Heard any roumors lately?</question>
+				<answer>I know nothing, sir</answer>
+			</dialog>
+			<dialog>
+				<question>Why are you standing here?</question>
+				<answer>Well, I have been ordered so, sir</answer>
+			</dialog>
+		</dialogs>
+	</creature>
+
+</creatures>

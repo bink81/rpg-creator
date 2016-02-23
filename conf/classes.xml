@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classList>
+	<class>
+		<name> hunter </name>
+		<maxStr> 18 </maxStr>
+		<maxSpeed> 18 </maxSpeed>
+		<dexBonus> 20 </dexBonus>  'for all activities based on Dexterity
+		<levelUps>
+			<levelUp>
+				<levelNr> 2 </levelNr>
+				<addStat> dexterity </addStat>
+				<addStat> dexterity </addStat>
+				<addStat> dexterity </addStat>
+			</levelUp>
+		</levelUps>
+	</class>
+
+	<class>
+		<name> mage </name>
+		<maxStr> 13 </maxStr>
+		<intBonus> 20 </intBonus>  'for all activities based on Inteligence
+	</class>
+
+	<class>
+		<name> warrior </name>
+		<maxInt> 12 </maxInt>
+		<strBonus> 20 </strBonus>  'for all activities based on Strength
+		<levelUps>
+			<levelUp>
+				<levelNr> 2 </levelNr>
+				<addItem> sword </addItem>
+			</levelUp>
+		</levelUps>
+	</class>
+	
+	<class>
+		<name> thief </name>
+		<maxInt> 15 </maxInt>
+		<maxStr> 15 </maxStr> 
+		<dexBonus> 20 </dexBonus>  'for all activities based on Strength
+		<levelUps>
+			<levelUp>
+				<levelNr> 2 </levelNr>
+				<addItem> dagger </addItem>
+			</levelUp>
+		</levelUps>
+	</class>
+</classList>

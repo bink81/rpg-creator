@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+
+	<event>
+		<turn>100</turn>
+		<map>outside</map>
+		<text>Suddenly you felt bad... really bad
+You vomit... 
+Slightly better</text>
+	</event>	
+
+	<event>
+		<turn>300</turn>
+		<map>outside</map>		
+		<text>You see a falling star</text>
+	</event>	
+	
+	<event>
+		<map>city</map>
+		<repeat>no</repeat>
+		<text>Arrgh, it's been so long since you were here. 
+		
+Now... memories return...
+
+...filled with... hatred to overwhelming noise... 
+
+filthy streets and primitive behaviour called ....
+
+...CULTURE
+
+You just simply wish to leave this place </text>
+	</event>	
+	
+	<event>
+		<map>city</map>		
+		<locationx>3</locationx>
+		<locationy>3</locationy>
+		<text>Rusty sign above wooden door - "Armours and Shields"</text>
+	</event>		
+
+
+	<event>
+		<level>2</level>
+		<experience>100</experience>
+		<strength>2</strength>
+		<health>3d4</health>
+		<mana>2d2</mana>
+		<speed>2</speed>
+		<dexterity>0-1</dexterity>
+		<text>You suddenly feel stronger, more confident with your body</text>
+		<pointsForStats>10</pointsForStats>
+		<pointsForSkills>10</pointsForSkills>
+	</event>
+
+	<event>
+		<level>3</level>
+		<experience>300</experience>
+		<strength>2</strength>
+		<health>3d4</health>
+		<mana>2d2-10</mana>
+		<dexterity>2</dexterity>
+		<intelligence>0-4</intelligence>
+		<text>You improved again. Better eye, stronger hand...but somehow, you feel dumber</text>
+		<pointsForStats>10</pointsForStats>
+		<pointsForSkills>10</pointsForSkills>
+	</event>
+	
+	<event>
+		<experience>200</experience>
+		<level> 3 </level>
+		<intelligence>2</intelligence>
+		<health>4d3</health>
+		<mana>2d3</mana>
+		<text>You suddenly feel wiser, more confident with your mind</text>
+		<pointsForStats>10</pointsForStats>
+		<pointsForSkills>10</pointsForSkills>
+	</event>
+	
+	
+</events>
