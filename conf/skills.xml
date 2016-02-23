@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<skill>
+		<name>Healing</name>
+		<valuePerPoint>2</valuePerPoint>
+		<desc>Amount of hit points healed for one tur</desc>
+	</skill>
+	
+	<skill>
+		<name>Berserk</name>
+		<valuePerPoint>10</valuePerPoint>
+		<desc>The percentage of health from which it is possible to go on berserk
+		(+50% damage, -50% dodge)</desc>
+	</skill>
+	
+	<skill>
+		<name>Two hand fighting</name>
+		<valuePerPoint>10</valuePerPoint>
+		<desc>The percentage of the normal one hand damage (equal for both hands)</desc>
+	</skill>
+
+	<skill>
+		<name>Stealth</name>
+		<valuePerPoint>10</valuePerPoint>
+		<desc>Percentage of remaining unseen</desc>
+	</skill>
+	
+	<skill>
+		<name>Haggling</name>
+		<valuePerPoint>10</valuePerPoint>
+		<desc>Percentage of price in shops</desc>
+	</skill>
+	
+	<skill>
+		<name>Fitness</name>
+		<valuePerPoint>10</valuePerPoint>
+		<desc>Percentage of dodge bonus</desc>
+	</skill>
+	
+	<skill>
+		<name>Swimming</name>
+		<valuePerPoint>20</valuePerPoint>
+		<desc>Percentage of avoiding water damage</desc>
+	</skill>
+
+	<skill>
+		<name>Scouting</name>
+		<valuePerPoint>5</valuePerPoint>
+		<desc>Percentage bonus to perception</desc>
+	</skill>
+	
+	<skill>
+		<name>Condition</name>
+		<valuePerPoint>5</valuePerPoint>
+		<desc>Percentage of avoiding terrain speed dissabilities</desc>
+	</skill>
+
+	<skill>
+		<name>Axes</name>
+		<valuePerPoint>5</valuePerPoint>
+		<desc>Percentage bonus to damage and ToHit while using an axe</desc>
+	</skill>
+
+	<skill>
+		<name>Swords</name>
+		<valuePerPoint>5</valuePerPoint>
+		<desc>look above</desc>
+	</skill>
+
+	<skill>
+		<name>Shield</name>
+		<valuePerPoint>10</valuePerPoint>
+		<desc>Percentage to shield bonus (armour)</desc>
+	</skill>	
+	
+	<skill>
+		<name>Reflex</name>
+		<valuePerPoint>5</valuePerPoint>
+		<desc>Speed bonus (percent)</desc>
+	</skill>	
+
+	<skill>
+		<name>Concentration</name>
+		<valuePerPoint>10</valuePerPoint>
+		<desc>Percentage bonus to spells</desc>
+	</skill>	
+	
+	<skill>
+		<name>Learning</name>
+		<valuePerPoint>5</valuePerPoint>
+		<desc>Percantage bonus to experience gain</desc>
+	</skill>	
+	
+	<skill>
+		<name>Archery</name>
+		<valuePerPoint>5</valuePerPoint>
+		<desc>Percentage bonus to aiming</desc>
+	</skill>	
+
+</skills>
